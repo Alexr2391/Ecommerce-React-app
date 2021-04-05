@@ -1,0 +1,32 @@
+.container {
+  position: relative;
+  border: 1px solid whitesmoke;
+  width: 100%;
+  padding: 1.5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.title_container {
+  margin: 2rem 0;
+  min-height: 60px;
+}
+.title {
+  font-size: 0.9rem;
+}
+
+.image_wrapper {
+  height: 250px;
+  width: 100%;
+}
+
+.image_wrapper > span {
+  display: block;
+}
+
+.image {
+  object-fit: contain;
+  height: 250px;
+  width: 100%;
+}

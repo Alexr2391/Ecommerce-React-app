@@ -1,0 +1,13 @@
+.container_grid {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 20% 78%;
+  grid-gap: 2%;
+}
+
+@media screen and (max-width: 700px) {
+  .container_grid {
+    grid-gap: 0;
+    grid-template-columns: 100%;
+  }
+}
